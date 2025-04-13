@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA-инженер | Мокшин Александр</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="free-icon-qa-9232999.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Фиолетовая цветовая схема */
+        :root {
+            --main-purple: #9370DB;
+            --light-purple: #9C27B0;
+            --accent-purple: #D1C4E9;
+        }
+
+        nav {
+            background: #fff;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        nav ul li a:hover,
+        .contact-icons a:hover,
+        .skill-card:hover {
+            color: var(--main-purple) !important;
+        }
+
+        /* Основные секции */
+        section {
+            padding: 100px 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero {
+            background: var(--accent-purple);
+        }
+
+        .skills {
+            background: #f8f9fa;
+        }
+
+        .skill-card {
+            border: 2px solid var(--main-purple);
+        }
+
+        /* QA Специфика */
+        .qa-badge {
+            background: var(--main-purple);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        .tools-list {
+            columns: 2;
+            margin: 20px 0;
+        }
+
+        /* Остальные стили остаются аналогичными предыдущему примеру */
+        /* ... (остальной CSS из предыдущего примера) ... */
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Мокшин Александр</h1>
+            <div class="qa-badge">QA Engineer</div>
+            <p>Обеспечение качества программного обеспечения</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div>
+                    <h2>Обо мне</h2>
+                    <p>QA-инженер с 3-летним опытом в тестировании веб-приложений и мобильных приложений. Специализация:</p>
+                    <ul class="tools-list">
+                        <li>▸ Функциональное тестирование</li>
+                        <li>▸ Нагрузочное тестирование (JMeter)</li>
+                        <li>▸ Автоматизация тестирования (Selenium)</li>
+                        <li>▸ Работа с SQL и NoSQL БД</li>
+                        <li>▸ Тест-дизайн и документация</li>
+                        <li>▸ CI/CD интеграция</li>
+                    </ul>
+                </div>
+                <img src="https://via.placeholder.com/400" alt="Фото Мокшина Александра" style="border-radius: 10px;">
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Профессиональные навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-bug" style="color: var(--main-purple); font-size: 3em;"></i>
+                    <h3>Ручное тестирование</h3>
+                    <p>Тест-кейсы, чек-листы, баг-репорты</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot" style="color: var(--main-purple); font-size: 3em;"></i>
+                    <h3>Автоматизация</h3>
+                    <p>Selenium, Python, PyTest</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tasks" style="color: var(--main-purple); font-size: 3em;"></i>
+                    <h3>Тест-менеджмент</h3>
+                    <p>Jira, TestRail, Zephyr</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Всегда открыт для профессиональных предложений</p>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +7(927) 777-88-88</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:qa.mokshin@example.com">qa.mokshin@example.com</a></p>
+            </div>
+            <div class="contact-icons">
+                <a href="https://t.me/xSkiFFoloGGx" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://github.com/yourprofile" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
